@@ -1,8 +1,8 @@
 defmodule ServyTest do
-  use ExUnit.Case, async: true
+  use ExUnit.Case
   doctest Servy
 
-  test "greets the world" do
-    assert 1 + 11 == 12
+  test "the truth" do
+    assert 1 + 1 == 2
   end
 end
